@@ -1,0 +1,17 @@
+# TODO: add the patterns
+%%writefile .gitignore
+# Virtual environment
+.venv/
+
+# Python compiled files
+__pycache__/
+
+# Program outputs / logs
+logs/
+
+# Credentials and API keys
+kaggle.json
+.env
+
+# Large data files
+*.csv
